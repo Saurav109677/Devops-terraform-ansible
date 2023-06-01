@@ -11,7 +11,7 @@ provider "aws" {
 region = "us-west-2"
 }
 resource "aws_instance" "myawsserver" {
-  ami = "ami-0ab193018f3e9351b"
+  ami = "ami-03c7c1f17ee073747"
   instance_type = "t2.micro"
   key_name = "saurav-pub"
 
